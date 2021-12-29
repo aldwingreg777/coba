@@ -1,5 +1,5 @@
 #!/bin/bash
-curl --data chat_id=“-1001683033802” --data-urlencode "
+curl --data chat_id=“-1001683033802” --data-urlencode "text=
 red='\033[0;31m'
 cyan='\033[0;36m'
 yell='\033[1;33m'
